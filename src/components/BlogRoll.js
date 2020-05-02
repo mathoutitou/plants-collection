@@ -37,9 +37,9 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    {/* <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
-                    </span>
+                    </span> */}
                   </p>
                 </header>
                 <p>
@@ -47,7 +47,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
+                    Voir la fiche →
                   </Link>
                 </p>
               </article>
@@ -76,7 +76,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 100)
               id
               fields {
                 slug
