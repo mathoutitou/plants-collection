@@ -1,7 +1,7 @@
 ---
 templateKey: fiche-post
 title: Arbre de Jade
-date: 2020-05-02T19:04:17.931Z
+date: 2020-05-02T19:07:29.786Z
 description: Une des plantes préférées de ma mienne <3
 featuredpost: false
 featuredimage: /img/crassula_ovata_sunset.jpg
@@ -31,7 +31,13 @@ hop un lien : [ICI](https://les-petites-plantes-d-ysa.netlify.app/)
 
 ###### un autre
 
-> Une magnifique citation tirée d'un de tes livres
+
+
+> Une magnifique citation tirée d'un de tes livres ( j'ai pas encore fait la mise en forme hiiiii)
+
+
+
+
 
 * une liste à puces
 
@@ -44,6 +50,8 @@ hop un lien : [ICI](https://les-petites-plantes-d-ysa.netlify.app/)
       * sousousousousous puce
 * puce
 * puce
+
+
 
 Etttttttttttt
 
