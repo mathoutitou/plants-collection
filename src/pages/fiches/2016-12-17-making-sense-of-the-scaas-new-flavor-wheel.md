@@ -9,7 +9,7 @@ tags:
   - jade
   - grasse
 ---
-![arbre de jade](/img/crassula_ovata_sunset.jpg "Arbre de Jade ")
+![](/img/crassula_ovata_sunset.jpg "Arbre de Jade ")
 
 Qu'elle est belle cette plante grasse ! Tout ce que je sais c'est qu'elle est dépolluant Héééé ouais ! Le reste c'est ma mienne qui l'écrira :D\
 \
