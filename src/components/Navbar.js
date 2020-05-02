@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import connect from '../img/connect_nature.svg'
+import logo from '../img/connect_nature_2.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,8 +41,8 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              {/* <img src={logo} alt="Kaldi" style={{ width: '88px' }} /> */}
+            <Link to="/" className="navbar-item" title="Accueil">
+              <img src={logo} alt="logo" style={{ width: '88px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
@@ -61,27 +61,24 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
-                About
+                À propos
               </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
+              <Link className="navbar-item" to="/fiches">
+                Fiches
               </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
+                href="https://les-petites-plantes-d-ysa.netlify.app/admin/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <img src={github} alt="Github" />
+                  <img src={connect} alt="Login" />
                 </span>
               </a>
             </div>

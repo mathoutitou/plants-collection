@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
@@ -11,7 +10,6 @@ export const IndexPageTemplate = ({
   title,
   heading,
   description,
-  intro,
 }) => (
   <div>
     <div
@@ -63,15 +61,14 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest stories
+                    Mes dernières fiches
                   </h3>
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
+                    <Link className="btn" to="/fiches">
+                      Voir toutes les fiches
                     </Link>
                   </div>
                 </div>
@@ -89,9 +86,6 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -104,7 +98,6 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
-        intro={frontmatter.intro}
       />
     </Layout>
   )
@@ -134,20 +127,6 @@ export const pageQuery = graphql`
         }
         heading
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

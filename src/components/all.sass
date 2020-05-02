@@ -1,7 +1,7 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #43cc87
+// Logo brand color: #43cc87
 $plants-green: #43cc87
 $white: #F3F5F7
 
@@ -37,7 +37,7 @@ $black: #2b2523
   right: 50%
   margin: 2em -50vw
   background-size: cover
-  background-position: bottom
+  background-position: center
   display: flex
   justify-content: center
   align-items: center
@@ -46,7 +46,7 @@ $black: #2b2523
     width: 100vw
     height: 400px
     background-size: cover
-    background-position: bottom
+    background-position: center
     display: flex
     justify-content: center
     align-items: center
@@ -68,6 +68,9 @@ $black: #2b2523
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
+.button.is-link
+    background-color: $plants-green !important
+
 .margin-top-0
   margin-top: 0 !important
 
@@ -75,8 +78,8 @@ $black: #2b2523
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
-  width: 1.5rem
-  height: 1.5rem
+  width: 2.5rem
+  height: 2.5rem
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
@@ -119,6 +122,8 @@ $menu-label-color: $white-ter
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
+.blog-list-item header a
+  text-decoration: none !important
 .blog-list-item .featured-thumbnail
   flex-basis: 90%;
   margin: 0 0 1.5em 0;
