@@ -3,12 +3,16 @@
 // Config vars
 // Logo brand color: #43cc87
 $plants-green: #43cc87
-$white: #F3F5F7
+$white-smoke: #F3F5F7
+$white: #ffffff
 
 $primary: $plants-green
-$primary-invert: $white
+$primary-invert: $white-smoke
 $body-color: #333
 $black: #2b2523
+
+body
+  background-color: $white-smoke
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -57,7 +61,7 @@ $black: #2b2523
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: $white
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
@@ -88,13 +92,13 @@ footer.footer
   background-color: transparent
 
 //Menu overrides
-$menu-item-color: $white-ter
+$menu-item-color: $white-smoke
 $menu-item-hover-color: $plants-green !important
 $menu-item-hover-background-color: $plants-green
-$menu-item-active-color: $white
-$menu-item-active-background-color:	$white
-$menu-list-border-left: 1px solid $white
-$menu-label-color: $white-ter
+$menu-item-active-color: $white-smoke
+$menu-item-active-background-color:	$white-smoke
+$menu-list-border-left: 1px solid $white-smoke
+$menu-label-color: $white-smoke
 
 
 .menu-label
@@ -108,7 +112,7 @@ $menu-label-color: $white-ter
 .social a
     padding: .5em .5em .3em .5em
     border-radius: 1em
-    background-color: $white-ter
+    background-color: $white-smoke
     margin: .5em
     width: 1em
     height: 1em
@@ -116,8 +120,8 @@ $menu-label-color: $white-ter
     display: inline
 
 // plantes-interieur roll
-.plantes-interieur-list-item.is-featured
-  background-color: $white;
+.plantes-interieur-list-item
+  background-color: $white !important
 .plantes-interieur-list-item header
   display: flex;
   flex-direction: column;
