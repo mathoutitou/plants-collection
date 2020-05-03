@@ -42,6 +42,21 @@ collections:
       - {label: "Corps", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}    
 
+  - name: "plantes-potageres"
+    label: "Plantes potagères"
+    folder: "src/pages/plantes-potageres"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "plantes-potageres"}
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date de publication", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Mettre en avant", name: "featuredpost", widget: "boolean"}
+      - {label: "Image de couverture", name: "featuredimage", widget: image}
+      - {label: "Corps", name: "body", widget: "markdown"}
+      - {label: "Tags", name: "tags", widget: "list"}
+
   - name: "pages"
     label: "Pages"
     files:
