@@ -60,9 +60,6 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                À propos
-              </Link>
               <Link className="navbar-item" to="/plantes-interieur">
                 Plantes d'intérieur
               </Link>
@@ -72,11 +69,14 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/plantes-potageres">
                 Plantes potagères
               </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
+            <Link className="navbar-item" to="/about">
+                À propos
+              </Link>
               <Link className="navbar-item" to="/contact">
                 Contact
               </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
               <a
                 className="navbar-item"
                 href="https://les-petites-plantes-d-ysa.netlify.app/admin/"
