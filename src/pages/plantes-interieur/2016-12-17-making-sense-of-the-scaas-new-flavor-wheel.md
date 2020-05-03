@@ -1,5 +1,5 @@
 ---
-templateKey: fiche-post
+templateKey: plantes-interieur
 title: Arbre de Jade
 date: 2020-05-02T19:07:29.786Z
 description: Une des plantes préférées de ma mienne <3

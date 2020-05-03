@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import PlantesInteRoll from '../components/PlantesInteRoll'
+import FruitsLegumesRoll from '../components/FruitsLegumesRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -63,12 +64,34 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Mes dernières fiches
+                    Mes dernières plantes d'intérieur
                   </h3>
-                  <BlogRoll />
+                  <PlantesInteRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/fiches">
-                      Voir toutes les fiches
+                    <Link className="btn" to="/plantes-interieur">
+                      Voir toutes les plantes d'intérieur
+                    </Link>
+                  </div>
+                </div>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Mes derniers fruits & légumes
+                  </h3>
+                  <FruitsLegumesRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/fruits-legumes">
+                      Voir tous les fruits & légumes
+                    </Link>
+                  </div>
+                </div>
+                <div className="column is-12">
+                  <h3 className="has-text-weight-semibold is-size-2">
+                    Mes dernières plantes potagères
+                  </h3>
+                  <FruitsLegumesRoll />
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/plantes-potageres">
+                      Voir toutes les plantes potagères
                     </Link>
                   </div>
                 </div>

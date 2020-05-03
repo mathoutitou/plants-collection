@@ -1,5 +1,5 @@
 ---
-templateKey: fiche-post
+templateKey: plantes-interieur
 title: Je sais pas c'est quoi le nom commum
 date: 2020-05-02T18:46:37.305Z
 description: "Ressemble à une serpillière mais c'est une plante donc elle est
