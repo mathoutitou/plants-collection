@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Ma collection de plantes
+title: Ma collection végétale
 image: /img/plant-2-libre_de_droits.jpg
 heading: Les petites plantes d'Ysa
 description: Et patati et patata toute la journée ça n'arrête pas
