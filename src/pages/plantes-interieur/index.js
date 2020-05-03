@@ -14,14 +14,16 @@ export default class PlantesInteIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #0fbc63, -0.5rem 0 0 #0fbc63',
-              backgroundColor: '#43cc87',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          style={{
+            boxShadow:
+              'rgb(15, 188, 99) 0.5rem 0px 0px, rgb(15, 188, 99) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(67, 204, 135)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
+          }}
+        >
             Toutes mes plantes d'intérieur
           </h1>
         </div>
