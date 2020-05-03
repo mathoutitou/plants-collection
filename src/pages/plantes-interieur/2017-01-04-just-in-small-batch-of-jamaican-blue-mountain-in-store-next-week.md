@@ -1,5 +1,5 @@
 ---
-templateKey: fiche-post
+templateKey: plantes-interieur
 title: Oups j'ai oublié le nom aussi
 date: 2020-05-02T18:55:53.655Z
 description: Très joulie oui oui oui
